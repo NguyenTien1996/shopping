@@ -1,6 +1,10 @@
 import React from 'react';
 import './layout.css';
-import Banner from '../../pages/Home/Banner/index';
+import {Banner} from '../../pages/Home/components';
+import {
+  BrowserRouter as Router,
+  Link,
+} from "react-router-dom";
 
 const HeaderComponent = () => {
 
@@ -16,10 +20,10 @@ const HeaderComponent = () => {
               </div>
               <div className="sticker-menu">
                 <ul>
-                  <li className="wow fadeInRight"><a href title>Home</a></li>
-                  <li className="wow fadeInRight"><a href title>About</a></li>
-                  <li className="wow fadeInRight"><a href title>login</a></li>
-                  <li className="wow fadeInRight"><a href title>register</a></li>
+                  <li><Link to="/">Home</Link></li>
+                  <li><Link to="/about">About</Link></li>
+                  <li><Link to="/">Login</Link></li>
+                  <li><Link to="/">Register</Link></li>
                 </ul>
               </div>
             </div>

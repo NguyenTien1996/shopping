@@ -8,3 +8,4 @@ export const getListDataProducts = async () => {
     const result = await response.status === 200 ? await response.data : [];
     return result;
 }
+

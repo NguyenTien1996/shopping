@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebookF, faTwitter, faInstagram, faPinterest } from '@fortawesome/free-brands-svg-icons';
+import {  faFacebookF, faTwitter, faInstagram, faPinterest } from '@fortawesome/free-solid-svg-icons';
 
 const FooterComponent = () => {
     return(
@@ -9,28 +9,18 @@ const FooterComponent = () => {
                     <p>Join our community and connect with us!</p>
                     <div className="mxh">
                     <ul className="tbl">
-                        <li className="tbl-cell wow  bounceIn">
-                        <a target="_bank" href="" title="">
+                        {/* <li className="tbl-cell wow  bounceIn">
                             <FontAwesomeIcon icon={faFacebookF} />
-                        </a>
                         </li>
                         <li className="tbl-cell wow bounceIn">
-                        <a target="_bank" href="" title="">
                             <FontAwesomeIcon icon={faTwitter} />
-                        </a>
                         </li>
-                        
                         <li className="tbl-cell wow bounceIn">
-                        <a target="_bank" href=" title=">
-                        <FontAwesomeIcon icon={faInstagram} />
-                        </a>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </li>
-                        
                         <li className="tbl-cell wow bounceIn">
-                        <a target="_bank" href="" title="">
-                        <FontAwesomeIcon icon={faPinterest} />
-                        </a>
-                        </li>
+                            <FontAwesomeIcon icon={faPinterest} />
+                        </li> */}
                     </ul>
                     </div>
                     <span>© 2019 ST9. All Rights Reserved.</span>
